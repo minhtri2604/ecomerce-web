@@ -1,0 +1,99 @@
+/* custom pagination */
+
+.ant-pagination .ant-pagination-prev:hover .ant-pagination-item-link,
+.ant-pagination .ant-pagination-next:hover button.ant-pagination-item-link {
+  background-color: transparent;
+}
+
+.ant-pagination .ant-pagination-item,
+.ant-pagination-jump-next.ant-pagination-jump-next-custom-icon,
+.ant-pagination-jump-prev.ant-pagination-jump-prev-custom-icon,
+.ant-pagination .ant-pagination-prev,
+.ant-pagination .ant-pagination-next {
+  background-color: var(--border-color);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-pagination-item-link {
+  width: 40px;
+}
+
+.ant-pagination .ant-pagination-item a {
+  color: #000;
+}
+
+.ant-pagination .ant-pagination-item-active {
+  background-color: var(--primary-color);
+  padding: 15px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-pagination .ant-pagination-item-active a {
+  color: var(--white-color);
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > th,
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  border-bottom: 1px solid var(--white-color);
+}
+
+.custom-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ant-table-selection-col {
+  width: 50px !important;
+}
+
+/* custom title antd */
+th.ant-table-cell {
+  color: var(--title-table-color) !important;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.table-product .ant-table-thead > tr > th:not(:first-child):not(:nth-child(2)) {
+  text-align: center;
+}
+
+/* custom before */
+.ant-table-cell::before {
+  background-color: transparent !important;
+}
+
+/* Tùy chỉnh kích thước font chữ của placeholder trong DatePicker */
+.custom .ant-picker-input > input {
+  font-size: 16px;
+}
+
+.custom .ant-picker-input > input::placeholder {
+  color: var(--sub-color);
+}
+
+/* custom tooltip */
+.ant-tooltip {
+  --antd-arrow-background-color: transparent;
+}
+
+/* .ant-tooltip .ant-tooltip-inner {
+  background-color: transparent !important;
+  border: none;
+  font-size: 18px;
+  min-width: unset;
+  min-height: unset;
+  padding: 0;
+  box-shadow: unset;
+} */

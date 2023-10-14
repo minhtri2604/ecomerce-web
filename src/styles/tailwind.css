@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+.transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.focus-input {
+  @apply focus:border-[--primary-color] focus:text-[--primary-color] caret-[--primary-color];
+}
+
+.focus-within-input {
+  @apply focus-within:border-[--primary-color] focus-within:text-[--primary-color];
+}
+
+.business-info {
+  @apply text-[16px] font-[500] text-[--sub-color];
+}

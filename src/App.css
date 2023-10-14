@@ -1,0 +1,13 @@
+body {
+  font-family: var(--font-family);
+  position: relative;
+  margin: 0;
+  background-color: var(--bg-color);
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
